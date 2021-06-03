@@ -1,0 +1,14 @@
+..\object\uri.o: ..\Protocol\coap_lwm2m\uri.c
+..\object\uri.o: ..\Protocol\include\internal.h
+..\object\uri.o: ..\Protocol\include\coap.h
+..\object\uri.o: ..\Protocol\include\platform.h
+..\object\uri.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\object\uri.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\object\uri.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\object\uri.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+..\object\uri.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\float.h
+..\object\uri.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\object\uri.o: ..\Protocol\include\config.h
+..\object\uri.o: ..\Protocol\include\utils.h
+..\object\uri.o: ..\Protocol\include\nbiot.h
+..\object\uri.o: ..\Protocol\include\error.h

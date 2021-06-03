@@ -1,0 +1,996 @@
+Dependencies for Project 'onenetdemo', Target 'OneNET_Demo_ESP8266_COAP': (DO NOT MODIFY !)
+F (..\Libraries\CMSIS\core_cm3.c)(0x57980A0E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\core_cm3.o --omf_browse ..\object\core_cm3.crf --depend ..\object\core_cm3.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+F (..\Libraries\CMSIS\system_stm32f10x.c)(0x57980A0E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\system_stm32f10x.o --omf_browse ..\object\system_stm32f10x.crf --depend ..\object\system_stm32f10x.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+F (..\Libraries\CMSIS\startup\arm\startup_stm32f10x_hd.s)(0x57980A0E)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include--list .\startup_stm32f10x_hd.lst --xref -o ..\object\startup_stm32f10x_hd.o --depend ..\object\startup_stm32f10x_hd.d)
+F (..\User\main.c)(0x58E09C48)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\main.o --omf_browse ..\object\main.crf --depend ..\object\main.d)
+I (..\Protocol\include\nbiot.h)(0x58C7C7B0)
+I (..\Protocol\include\error.h)(0x58C7C7B0)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x53463A44)
+I (..\Protocol\include\OSAL_Memory.h)(0x58DFE8E0)
+I (..\Hal\usart1.h)(0x58E09C6E)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+I (..\Hal\usart2.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\Devices\hal_i2c.h)(0x57980A0E)
+F (..\User\stm32f10x_it.c)(0x58E09B2E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\stm32f10x_it.o --omf_browse ..\object\stm32f10x_it.crf --depend ..\object\stm32f10x_it.d)
+I (..\User\stm32f10x_it.h)(0x57980A0E)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+I (..\Hal\usart1.h)(0x58E09C6E)
+I (..\Hal\usart2.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c)(0x58DFEB6E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\misc.o --omf_browse ..\object\misc.crf --depend ..\object\misc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c)(0x57980A0E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\stm32f10x_exti.o --omf_browse ..\object\stm32f10x_exti.crf --depend ..\object\stm32f10x_exti.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c)(0x57980A0E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\stm32f10x_flash.o --omf_browse ..\object\stm32f10x_flash.crf --depend ..\object\stm32f10x_flash.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x57980A0E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\stm32f10x_gpio.o --omf_browse ..\object\stm32f10x_gpio.crf --depend ..\object\stm32f10x_gpio.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c)(0x57980A0E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\stm32f10x_i2c.o --omf_browse ..\object\stm32f10x_i2c.crf --depend ..\object\stm32f10x_i2c.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x57980A0E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\stm32f10x_rcc.o --omf_browse ..\object\stm32f10x_rcc.crf --depend ..\object\stm32f10x_rcc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c)(0x57980A0E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\stm32f10x_usart.o --omf_browse ..\object\stm32f10x_usart.crf --depend ..\object\stm32f10x_usart.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+F (..\Hal\usart1.c)(0x57980A0E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\usart1.o --omf_browse ..\object\usart1.crf --depend ..\object\usart1.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+I (..\Hal\usart1.h)(0x58E09C6E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+F (..\Hal\usart2.c)(0x57980A0E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\usart2.o --omf_browse ..\object\usart2.crf --depend ..\object\usart2.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+I (..\Network\esp8266\esp8266.h)(0x58DF0C42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\Hal\usart1.h)(0x58E09C6E)
+I (..\Hal\usart2.h)(0x57980A0E)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+F (..\Network\esp8266\esp8266.c)(0x58DF6150)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\esp8266.o --omf_browse ..\object\esp8266.crf --depend ..\object\esp8266.d)
+I (..\Network\esp8266\esp8266.h)(0x58DF0C42)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\Hal\usart1.h)(0x58E09C6E)
+I (..\Hal\usart2.h)(0x57980A0E)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+F (..\Devices\hal_i2c.c)(0x57980A0E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\hal_i2c.o --omf_browse ..\object\hal_i2c.crf --depend ..\object\hal_i2c.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+I (..\Devices\hal_i2c.h)(0x57980A0E)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+F (..\Devices\sht20.c)(0x57980A0E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\sht20.o --omf_browse ..\object\sht20.crf --depend ..\object\sht20.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (..\Devices\hal_i2c.h)(0x57980A0E)
+I (..\Devices\sht20.h)(0x57980A0E)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+F (..\JSON\cJSON.c)(0x58DE1204)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\cjson.o --omf_browse ..\object\cjson.crf --depend ..\object\cjson.d)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\limits.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x53463A44)
+I (..\JSON\cJSON.h)(0x57980A0E)
+F (..\Protocol\coap_lwm2m\dtls\aes.c)(0x58DE12CC)()
+F (..\Protocol\coap_lwm2m\dtls\ccm.c)(0x58DE14EA)()
+F (..\Protocol\coap_lwm2m\dtls\crypto.c)(0x58C7C7B0)()
+F (..\Protocol\coap_lwm2m\dtls\debug.c)(0x58C7C7B0)()
+F (..\Protocol\coap_lwm2m\dtls\dtls.c)(0x58DF678A)()
+F (..\Protocol\coap_lwm2m\dtls\ecc.c)(0x58DF678A)()
+F (..\Protocol\coap_lwm2m\dtls\hmac.c)(0x58DF678A)()
+F (..\Protocol\coap_lwm2m\dtls\netq.c)(0x58DF678A)()
+F (..\Protocol\coap_lwm2m\dtls\peer.c)(0x58DF6788)()
+F (..\Protocol\coap_lwm2m\dtls\sha2.c)(0x58DF6788)()
+F (..\Protocol\coap_lwm2m\lwm2m\block.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\block.o --omf_browse ..\object\block.crf --depend ..\object\block.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\bootstrap.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\bootstrap.o --omf_browse ..\object\bootstrap.crf --depend ..\object\bootstrap.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\coap.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\coap.o --omf_browse ..\object\coap.crf --depend ..\object\coap.d)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\data.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\data.o --omf_browse ..\object\data.crf --depend ..\object\data.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\discover.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\discover.o --omf_browse ..\object\discover.crf --depend ..\object\discover.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\list.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\list.o --omf_browse ..\object\list.crf --depend ..\object\list.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\lwm2m.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\lwm2m.o --omf_browse ..\object\lwm2m.crf --depend ..\object\lwm2m.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\m2m.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\m2m.o --omf_browse ..\object\m2m.crf --depend ..\object\m2m.d)
+I (..\Protocol\coap_lwm2m\lwm2m\m2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\include\nbiot.h)(0x58C7C7B0)
+I (..\Protocol\include\error.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\nbiot\struct.h)(0x58C7C7B0)
+F (..\Protocol\coap_lwm2m\lwm2m\management.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\management.o --omf_browse ..\object\management.crf --depend ..\object\management.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\objects.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\objects.o --omf_browse ..\object\objects.crf --depend ..\object\objects.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\observe.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\observe.o --omf_browse ..\object\observe.crf --depend ..\object\observe.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\packet.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\packet.o --omf_browse ..\object\packet.crf --depend ..\object\packet.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\registration.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\registration.o --omf_browse ..\object\registration.crf --depend ..\object\registration.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\tlv.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\tlv.o --omf_browse ..\object\tlv.crf --depend ..\object\tlv.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\transaction.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\transaction.o --omf_browse ..\object\transaction.crf --depend ..\object\transaction.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\uri.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\uri.o --omf_browse ..\object\uri.crf --depend ..\object\uri.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\lwm2m\utils.c)(0x58DF6B3C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\utils.o --omf_browse ..\object\utils.crf --depend ..\object\utils.d)
+I (..\Protocol\coap_lwm2m\lwm2m\internals.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\coap.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+F (..\Protocol\coap_lwm2m\nbiot\nbiot.c)(0x58DF656E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\nbiot.o --omf_browse ..\object\nbiot.crf --depend ..\object\nbiot.d)
+I (..\Protocol\include\nbiot.h)(0x58C7C7B0)
+I (..\Protocol\include\error.h)(0x58C7C7B0)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\coap_lwm2m\nbiot\struct.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\m2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+I (..\Network\esp8266\esp8266.h)(0x58DF0C42)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\Hal\usart1.h)(0x58E09C6E)
+I (..\Hal\usart2.h)(0x57980A0E)
+F (..\Protocol\coap_lwm2m\nbiot\resource.c)(0x58C7C7B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\resource.o --omf_browse ..\object\resource.crf --depend ..\object\resource.d)
+I (..\Protocol\coap_lwm2m\lwm2m\m2m.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\include\nbiot.h)(0x58C7C7B0)
+I (..\Protocol\include\error.h)(0x58C7C7B0)
+I (..\Protocol\coap_lwm2m\lwm2m\lwm2m.h)(0x58C7C7B0)
+F (..\Protocol\platforms\environment.c)(0x58E069FC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\environment.o --omf_browse ..\object\environment.crf --depend ..\object\environment.d)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+I (..\Network\esp8266\esp8266.h)(0x58DF0C42)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\Hal\usart1.h)(0x58E09C6E)
+I (..\Hal\usart2.h)(0x57980A0E)
+F (..\Protocol\platforms\memory.c)(0x58E09D28)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\memory.o --omf_browse ..\object\memory.crf --depend ..\object\memory.d)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (..\Protocol\include\OSAL_Memory.h)(0x58DFE8E0)
+F (..\Protocol\platforms\socket.c)(0x58DF6232)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\socket.o --omf_browse ..\object\socket.crf --depend ..\object\socket.d)
+I (..\Protocol\include\error.h)(0x58C7C7B0)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\errno.h)(0x53463A44)
+I (..\Network\esp8266\esp8266.h)(0x58DF0C42)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
+I (..\Hal\usart1.h)(0x58E09C6E)
+I (..\Hal\usart2.h)(0x57980A0E)
+F (..\Protocol\platforms\time.c)(0x58E09E70)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\time.o --omf_browse ..\object\time.crf --depend ..\object\time.d)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)
+F (..\Protocol\platforms\utils1.c)(0x58E0961A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\utils1.o --omf_browse ..\object\utils1.crf --depend ..\object\utils1.d)
+I (..\Protocol\include\utils.h)(0x58E096C6)
+I (..\Protocol\include\platform.h)(0x58E09BDA)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\float.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\inttypes.h)(0x53463A44)
+I (..\Protocol\include\config.h)(0x58C7C7B0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x53463A44)
+I (C:\Keil_v5\ARM\ARMCC\include\ctype.h)(0x53463A44)
+F (..\Protocol\platforms\OSAL_Memory.c)(0x58E09E56)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\Hal -I..\JSON -I..\Devices -I..\Network\esp8266 -I..\object -I..\Project -I..\User -I..\Libraries\CMSIS -I..\Libraries\STM32F10x_StdPeriph_Driver\inc -I..\Libraries\STM32F10x_StdPeriph_Driver\src -I..\Libraries\CMSIS\startup\arm -I..\Protocol\coap_lwm2m\dtls -I..\Protocol\coap_lwm2m\lwm2m -I..\Protocol\coap_lwm2m\nbiot -I..\Protocol\include -I..\Protocol\platforms-I D:\OneNET_Demo_ESP8266_COAP\OneNET_Demo_ESP8266_COAP\Project\RTE-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-D_RTE_ -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DNO_OS-o ..\object\osal_memory.o --omf_browse ..\object\osal_memory.crf --depend ..\object\osal_memory.d)
+I (..\Protocol\include\OSAL_Memory.h)(0x58DFE8E0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x57980A0E)
+I (..\Libraries\CMSIS\core_cm3.h)(0x57980A0E)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x57980A0E)
+I (..\User\stm32f10x_conf.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x57980A0E)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x57980A0E)

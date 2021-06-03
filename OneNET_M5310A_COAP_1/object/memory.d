@@ -1,0 +1,10 @@
+..\object\memory.o: ..\Protocol\platforms\memory.c
+..\object\memory.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdlib.h
+..\object\memory.o: ..\Protocol\include\platform.h
+..\object\memory.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stddef.h
+..\object\memory.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdint.h
+..\object\memory.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdbool.h
+..\object\memory.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\time.h
+..\object\memory.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\float.h
+..\object\memory.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\inttypes.h
+..\object\memory.o: ..\Protocol\include\config.h

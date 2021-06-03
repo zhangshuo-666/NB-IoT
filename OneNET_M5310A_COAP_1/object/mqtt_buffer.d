@@ -1,0 +1,11 @@
+..\object\mqtt_buffer.o: ..\Protocol\mqtt\mqtt_buffer.c
+..\object\mqtt_buffer.o: ..\Protocol\mqtt\mqtt_buffer.h
+..\object\mqtt_buffer.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+..\object\mqtt_buffer.o: ..\Protocol\mqtt\config.h
+..\object\mqtt_buffer.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stddef.h
+..\object\mqtt_buffer.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
+..\object\mqtt_buffer.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+..\object\mqtt_buffer.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+..\object\mqtt_buffer.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\assert.h
+..\object\mqtt_buffer.o: ..\Protocol\mqtt\mqtt.h
+..\object\mqtt_buffer.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\time.h

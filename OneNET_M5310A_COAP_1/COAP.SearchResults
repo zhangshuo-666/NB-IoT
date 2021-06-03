@@ -1,0 +1,75 @@
+---- Update registration Matches (0 in 0 files) ----
+---- nbsys_fault Matches (0 in 0 files) ----
+---- obj->readFunc Matches (1 in 1 files) ----
+Resource.c (protocol\coap_lwm2m\nbiot):        obj->readFunc     = prv_resource_read;
+---- readFunc Matches (9 in 3 files) ----
+Lwm2m.h (protocol\coap_lwm2m\lwm2m):    lwm2m_read_callback_t     readFunc;
+Objects.c (protocol\coap_lwm2m\lwm2m):    if ( NULL == targetP->readFunc ) return COAP_405_METHOD_NOT_ALLOWED;
+Objects.c (protocol\coap_lwm2m\lwm2m):    result = targetP->readFunc( uriP->instanceId, &size, &dataP, targetP );
+Objects.c (protocol\coap_lwm2m\lwm2m):    if ( NULL == targetP->readFunc ) return COAP_405_METHOD_NOT_ALLOWED;
+Objects.c (protocol\coap_lwm2m\lwm2m):    result = targetP->readFunc( uriP->instanceId, &size, &dataP, targetP );
+Objects.c (protocol\coap_lwm2m\lwm2m):    if ( NULL == targetP->readFunc ) return COAP_405_METHOD_NOT_ALLOWED;
+Objects.c (protocol\coap_lwm2m\lwm2m):        result = targetP->readFunc( uriP->instanceId, sizeP, dataP, targetP );
+Objects.c (protocol\coap_lwm2m\lwm2m):            result = targetP->readFunc( instanceP->id, (int*)&((*dataP)[i].value.asChildren.count), &((*dataP)[i].value.asChildren.array), targetP );
+Resource.c (protocol\coap_lwm2m\nbiot):        obj->readFunc     = prv_resource_read;
+---- nbiot_transaction_add Matches (27 in 6 files) ----
+Bootstrap.c (protocol\coap_lwm2m):        nbiot_transaction_add( dev,
+Bootstrap.c (protocol\coap_lwm2m):        nbiot_transaction_add( dev,
+Internal.h (protocol\include):int nbiot_transaction_add( nbiot_device_t              *dev,
+Internal.h (protocol\include):int nbiot_transaction_add( nbiot_device_t              *dev,
+Observe.c (protocol\coap_lwm2m):        nbiot_transaction_add( dev,
+Onenetdemo.htm (object):<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nbiot_transaction_add
+Onenetdemo.htm (object):<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nbiot_transaction_add
+Onenetdemo.htm (object):<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nbiot_transaction_add
+Onenetdemo.htm (object):<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nbiot_transaction_add
+Onenetdemo.htm (object):<LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nbiot_transaction_add
+Onenetdemo.htm (object):<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = nbiot_register_start &rArr; nbiot_transaction_add &rArr; nbiot_malloc &rArr; nbiot_printf &rArr; __c89vfprintf
+Onenetdemo.htm (object):<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nbiot_transaction_add
+Onenetdemo.htm (object):<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = nbiot_register_update &rArr; nbiot_transaction_add &rArr; nbiot_malloc &rArr; nbiot_printf &rArr; __c89vfprintf
+Onenetdemo.htm (object):<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nbiot_transaction_add
+Onenetdemo.htm (object):<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = nbiot_deregister &rArr; nbiot_transaction_add &rArr; nbiot_malloc &rArr; nbiot_printf &rArr; __c89vfprintf
+Onenetdemo.htm (object):<BR>[Calls]<UL><LI><a href="#[109]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;nbiot_transaction_add
+Onenetdemo.htm (object):<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = nbiot_register_step &rArr; nbiot_register_update &rArr; nbiot_transaction_add &rArr; nbiot_malloc &rArr; nbiot_printf &rArr; __c89vfprintf
+Onenetdemo.htm (object):<P><STRONG><a name="[109]"></a>nbiot_transaction_add</STRONG> (Thumb, 96 bytes, Stack size 32 bytes, transaction.o(.text))
+Onenetdemo.htm (object):<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = nbiot_transaction_add &rArr; nbiot_malloc &rArr; nbiot_printf &rArr; __c89vfprintf
+Registraction.c (protocol\coap_lwm2m):		    nbiot_transaction_add( dev,
+Registraction.c (protocol\coap_lwm2m):		  nbiot_transaction_add( dev,
+Registraction.c (protocol\coap_lwm2m):			   nbiot_transaction_add( dev,
+Registraction.c (protocol\coap_lwm2m):			   nbiot_transaction_add( dev,
+Registraction.c (protocol\coap_lwm2m):			   nbiot_transaction_add( dev,
+Registraction.c (protocol\coap_lwm2m):			   nbiot_transaction_add( dev,
+Transaction.c (protocol\coap_lwm2m):int nbiot_transaction_add( nbiot_device_t              *dev,
+Transaction.c (protocol\coap_lwm2m):int nbiot_transaction_add( nbiot_device_t              *dev,
+---- NOTIFY_ACK Matches (25 in 9 files) ----
+Bootstrap.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Bootstrap.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Internal.h (protocol\include):#ifdef NOTIFY_ACK
+Internal.h (protocol\include):#ifdef NOTIFY_ACK
+Internal.h (protocol\include):#ifdef NOTIFY_ACK
+Internal.h (protocol\include):#ifdef NOTIFY_ACK
+M5310.c (network):#ifdef NOTIFY_ACK
+Main.c (user):#ifdef NOTIFY_ACK
+Main.c (user): #ifdef NOTIFY_ACK
+Nbiot.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Nbiot.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Nbiot.h (protocol\include):#ifdef NOTIFY_ACK
+Nbiot.h (protocol\include):#ifdef NOTIFY_ACK
+Observe.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Observe.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Registraction.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Registraction.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Registraction.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Registraction.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Registraction.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Registraction.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Transaction.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Transaction.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Transaction.c (protocol\coap_lwm2m):#ifdef NOTIFY_ACK
+Transaction.c (protocol\coap_lwm2m):				#ifdef NOTIFY_ACK
+---- COAP_ACK_RANDOM_FACTOR Matches (2 in 1 files) ----
+Coap.h (protocol\include):#define COAP_ACK_RANDOM_FACTOR            1.5
+Coap.h (protocol\include):#define COAP_MAX_TRANSMIT_WAIT            ((COAP_RESPONSE_TIMEOUT*((1 <<(COAP_MAX_RETRANSMIT+1))-1)*COAP_ACK_RANDOM_FACTOR))	
+---- COAP_MAX_TRANSMIT_WAIT Matches (3 in 2 files) ----
+Coap.h (protocol\include):#define COAP_MAX_TRANSMIT_WAIT            ((COAP_RESPONSE_TIMEOUT*((1 <<(COAP_MAX_RETRANSMIT+1))-1)*COAP_ACK_RANDOM_FACTOR))	
+Registraction.c (protocol\coap_lwm2m):        if ( COAP_MAX_TRANSMIT_WAIT < next_update )
+Registraction.c (protocol\coap_lwm2m):            next_update -= (int)COAP_MAX_TRANSMIT_WAIT;

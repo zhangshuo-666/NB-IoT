@@ -1,0 +1,16 @@
+..\object\observe.o: ..\Protocol\coap_lwm2m\observe.c
+..\object\observe.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdio.h
+..\object\observe.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\string.h
+..\object\observe.o: ..\Protocol\include\internal.h
+..\object\observe.o: ..\Protocol\include\coap.h
+..\object\observe.o: ..\Protocol\include\platform.h
+..\object\observe.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stddef.h
+..\object\observe.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdint.h
+..\object\observe.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdbool.h
+..\object\observe.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\time.h
+..\object\observe.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\float.h
+..\object\observe.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\inttypes.h
+..\object\observe.o: ..\Protocol\include\config.h
+..\object\observe.o: ..\Protocol\include\utils.h
+..\object\observe.o: ..\Protocol\include\nbiot.h
+..\object\observe.o: ..\Protocol\include\error.h

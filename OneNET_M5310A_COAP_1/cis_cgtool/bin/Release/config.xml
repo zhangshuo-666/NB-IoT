@@ -1,0 +1,32 @@
+<?xml version="1.0"  encoding="utf-8"?>
+
+<config>
+  <item>
+    <version>1.0</version>
+    <cfgcnt>3</cfgcnt>
+  </item>
+
+  <item id="1"></item>
+
+  <item id="2">
+      <data name="Mtu">1024</data>
+      <data name="Linktype">1</data>
+      <data name="Bandtype">1</data>
+      <data name="APN"></data>
+      <data name="Username"></data>
+      <data name="Password"></data>
+      <data name="Bootstrap">1</data>
+      <data name="Host">nbiotbt.heclouds.com:5683</data>
+      <data name="Userdata">1</data>
+  </item>
+
+  <item id="3">
+      <data name="LogEnabled">0</data>
+      <data name="LogExtOutput">1</data>
+      <data name="LogOutputType">3</data>
+      <data name="LogOutputLevel">1</data>
+      <data name="LogBufferSize">0</data>
+      <data name="Userdata"></data>
+  </item>
+
+</config>

@@ -1,0 +1,14 @@
+..\object\tlv.o: ..\Protocol\coap_lwm2m\tlv.c
+..\object\tlv.o: ..\Protocol\include\internal.h
+..\object\tlv.o: ..\Protocol\include\coap.h
+..\object\tlv.o: ..\Protocol\include\platform.h
+..\object\tlv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\object\tlv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\object\tlv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\object\tlv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+..\object\tlv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\float.h
+..\object\tlv.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\object\tlv.o: ..\Protocol\include\config.h
+..\object\tlv.o: ..\Protocol\include\utils.h
+..\object\tlv.o: ..\Protocol\include\nbiot.h
+..\object\tlv.o: ..\Protocol\include\error.h

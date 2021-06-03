@@ -1,0 +1,17 @@
+..\object\registraction.o: ..\Protocol\coap_lwm2m\registraction.c
+..\object\registraction.o: ..\Protocol\include\internal.h
+..\object\registraction.o: ..\Protocol\include\coap.h
+..\object\registraction.o: ..\Protocol\include\platform.h
+..\object\registraction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stddef.h
+..\object\registraction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdint.h
+..\object\registraction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdbool.h
+..\object\registraction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\time.h
+..\object\registraction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\float.h
+..\object\registraction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\inttypes.h
+..\object\registraction.o: ..\Protocol\include\config.h
+..\object\registraction.o: ..\Protocol\include\utils.h
+..\object\registraction.o: ..\Protocol\include\nbiot.h
+..\object\registraction.o: ..\Protocol\include\error.h
+..\object\registraction.o: ..\Network\M5310.h
+..\object\registraction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\string.h
+..\object\registraction.o: ..\Hal\led.h

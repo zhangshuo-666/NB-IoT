@@ -1,0 +1,14 @@
+..\object\mmem.o: ..\Protocol\platforms\mmem.c
+..\object\mmem.o: ..\Protocol\include\platform.h
+..\object\mmem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+..\object\mmem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\object\mmem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+..\object\mmem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+..\object\mmem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\float.h
+..\object\mmem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\object\mmem.o: ..\Protocol\include\config.h
+..\object\mmem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\object\mmem.o: ..\Protocol\platforms\mmem.h
+..\object\mmem.o: ..\Protocol\platforms\list_q.h
+..\object\mmem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+..\object\mmem.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h

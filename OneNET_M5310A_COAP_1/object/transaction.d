@@ -1,0 +1,15 @@
+..\object\transaction.o: ..\Protocol\coap_lwm2m\transaction.c
+..\object\transaction.o: ..\Protocol\include\internal.h
+..\object\transaction.o: ..\Protocol\include\coap.h
+..\object\transaction.o: ..\Protocol\include\platform.h
+..\object\transaction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stddef.h
+..\object\transaction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdint.h
+..\object\transaction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdbool.h
+..\object\transaction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\time.h
+..\object\transaction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\float.h
+..\object\transaction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\inttypes.h
+..\object\transaction.o: ..\Protocol\include\config.h
+..\object\transaction.o: ..\Protocol\include\utils.h
+..\object\transaction.o: ..\Protocol\include\nbiot.h
+..\object\transaction.o: ..\Protocol\include\error.h
+..\object\transaction.o: D:\keilMDK\ARM\ARMCC\Bin\..\include\stdio.h
