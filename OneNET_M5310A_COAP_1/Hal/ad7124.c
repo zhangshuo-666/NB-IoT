@@ -3,6 +3,7 @@
 #include <stdio.h>
 /*
 this is ad7124
+v1.0
 */
 
 
